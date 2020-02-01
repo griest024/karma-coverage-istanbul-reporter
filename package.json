@@ -17,7 +17,6 @@
     "test:watch": "mocha --watch",
     "codecov": "cat coverage/lcov.info | codecov",
     "commit": "git-cz",
-    "prerelease": "npm test",
     "release": "standard-version && git push --follow-tags origin master",
     "postrelease": "npm publish --access public"
   },
