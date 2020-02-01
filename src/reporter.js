@@ -1,4 +1,4 @@
-const istanbul = require('istanbul-api');
+const istanbul = require('@griest/istanbul-api');
 const util = require('./util');
 
 const BROWSER_PLACEHOLDER = '%browser%';
