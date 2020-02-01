@@ -1,5 +1,5 @@
 {
-  "name": "karma-coverage-istanbul-reporter",
+  "name": "@griest/karma-coverage-istanbul-reporter",
   "version": "2.1.1",
   "description": "A karma reporter that uses the latest istanbul 1.x APIs (with full sourcemap support) to report coverage.",
   "funding": {
@@ -19,7 +19,7 @@
     "commit": "git-cz",
     "prerelease": "npm test",
     "release": "standard-version && git push --follow-tags origin master",
-    "postrelease": "npm publish"
+    "postrelease": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/mattlewis92/karma-coverage-istanbul-reporter#readme",
   "dependencies": {
-    "istanbul-api": "^2.1.6",
+    "@griest/istanbul-api": "^1.2.1",
     "minimatch": "^3.0.4"
   },
   "devDependencies": {
